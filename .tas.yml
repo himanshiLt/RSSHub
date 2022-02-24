@@ -5,11 +5,11 @@ preRun:
         - npm install
 preMerge:
   pattern:
-    - "./test/*/*.js"
+    - "./test/utils/*.js"
     - "./test/*.js"
 postMerge:
   pattern: 
-    - "./test/*/*.js"
+    - "./test/utils/*.js"
     - "./test/*.js"
 postRun:
      command:
